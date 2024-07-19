@@ -13,7 +13,7 @@ const MathCard = () => {
   const [num, setNum] = useState<MathContextType>(1);
   return (
 		<div className="card bg-dark-green text-white shadow-lg">
-      <MathContext.Provider value={num}>
+      <MathContext.Provider value={{ num, setNum }}>
         <MathCardHeader />
         <MathCardBody />
         <MathCardFooter />
