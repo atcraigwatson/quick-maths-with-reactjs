@@ -1,5 +1,5 @@
 
-import { useContext } from 'react';
+import { useContext } from 'react'
 
 export default function MathCardNumCubed() {
 	function numCubed(number: 0) {

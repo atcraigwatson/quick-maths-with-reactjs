@@ -1,5 +1,5 @@
 
-import { useContext } from 'react';
+import { useContext } from 'react'
 
 export default function MathCardNumSquared() {
 	function numSquared(number: 0) {

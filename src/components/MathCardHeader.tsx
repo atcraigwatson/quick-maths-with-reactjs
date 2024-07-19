@@ -1,8 +1,8 @@
 
-import { useContext } from 'react';
+import { useContext } from 'react'
 
 export default function MathCardHeader() {
-  const num = useContext(MathContext);
+  const {num, setNum} = useContext(MathContext);
 	return (
 		<div className="card-header bg-darker-green p-3">
 			<h2 className="display-5">Choose Your Number!</h2>

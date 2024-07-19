@@ -12,9 +12,7 @@ export default function MathCardBody() {
 				<MathCardNumCubed />
 				<MathCardNumSquareRoot />
 			</ul>
-
 			<MathCardNumTimesTableItem />
-					
 		</div>
 	);
 };
