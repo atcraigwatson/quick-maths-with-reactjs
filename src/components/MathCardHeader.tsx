@@ -1,5 +1,6 @@
 
 import { useContext } from 'react'
+
 import MathContext    from '../context'
 
 export default function MathCardHeader() {
