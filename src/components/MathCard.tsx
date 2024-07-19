@@ -8,7 +8,7 @@ import MathCardFooter from './MathCardFooter'
 import MathContext    from '../context'
 
 const MathCard = () => {
-  const [num, setNum] = useState<MathContextType>(1);
+  const [num, setNum] = useState(1);
   return (
 		<div className="card bg-dark-green text-white shadow-lg">
       <MathContext.Provider value={{ num, setNum }}>
