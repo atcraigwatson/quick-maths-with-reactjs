@@ -1,13 +1,11 @@
 
-import { useState, createContext } from 'react'
+import { useState } from 'react'
 
 import MathCardHeader from './MathCardHeader'
 import MathCardBody   from './MathCardBody'
 import MathCardFooter from './MathCardFooter'
 
-type MathContextType = 1;
-
-const MathContext = createContext<MathContextType | 1>(1);
+import MathContext    from '../context'
 
 const MathCard = () => {
   const [num, setNum] = useState<MathContextType>(1);
