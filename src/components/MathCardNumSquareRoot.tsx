@@ -1,11 +1,12 @@
 
 import { useContext } from 'react'
+import MathContext    from '../context'
 
 export default function MathCardNumSquareRoot() {
 
-  const num = useContext(MathContext);
+  const {num} = useContext(MathContext);
 
-	function numSquareRoot(number: 0) {
+	function numSquareRoot(number: number) {
 		return Math.sqrt(number).toFixed(2);
 	}
 
