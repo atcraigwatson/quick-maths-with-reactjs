@@ -1,6 +1,7 @@
 
 import { useContext } from 'react'
-import MathContext from '../contexts/MathContext'
+
+import MathContext    from '../context'
 
 export default function ListItem() {
   const { num } = useContext(MathContext);
