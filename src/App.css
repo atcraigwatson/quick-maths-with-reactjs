@@ -1,0 +1,42 @@
+body {
+  background-color: #0a3d2d;
+}
+
+.container-fluid {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-header .form-control,
+.card-header .form-control:active,
+.card-header .form-control:focus {
+  background-color: #12684D;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.card-header .form-control:active,
+.card-header .form-control:focus {
+  border-color: #FFDF10;
+  box-shadow: 0 0 0 2px #FFDF10;
+}
+
+.bg-light-green {
+  background-color: #178260;
+}
+
+.bg-dark-green {
+  background-color: #12684D;
+}
+
+.bg-darker-green {
+  background-color: #0d4e3a;
+}
+
+.bg-darkest-green {
+  background-color: #0a3d2d;
+}
+
+.bg-yellow {
+  background-color: #FFDF10;
+}
