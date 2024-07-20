@@ -1,13 +1,12 @@
 
 import PageHeader from './components/PageHeader'
-import PageContent from './components/PageContent'
+import MathCard   from './components/MathCard'
 
 export default function App() {
   return (
-		<section className="container-fluid">
+		<main className="container-fluid">
 			<PageHeader />
-			<PageContent />
-		</section>
+			<MathCard />
+		</main>
   );
 };
-
