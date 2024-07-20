@@ -9,9 +9,9 @@ export default function MathCardNumTimesTableItem() {
   const timesTable = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
   let timesTableList: JSX.Element[] = [];
   
-  timesTable.forEach((times, index) => {
-    timesTableList.push(<li key={index} className="list-group-item bg-dark-green text-white">{times} X {num} = {num * times}</li>);
-  });
+	for ( const number of timesTable ) {
+		timesTableList.push(<li key={number} className="list-group-item bg-dark-green text-white">{number} X {num} = {num * number}</li>);
+	};
   
   if ( num <= 0 ) {
     return ( 
