@@ -1,7 +1,8 @@
 
 import { useContext } from 'react'
+import { JSX }        from 'react/jsx-runtime';
+
 import MathContext    from '../context'
-import { JSX } from 'react/jsx-runtime';
 
 export default function MathCardNumTimesTableItem() {
 
