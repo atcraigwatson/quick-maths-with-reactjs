@@ -1,0 +1,84 @@
+
+// Custom variables
+//
+// Create your own or overwrite bootstrap variables
+
+// Base colours
+$green-xdark  : #0a3d2d;
+$green-darker : #0d4e3a;
+$green-base   : #12684d;
+$green-light  : #178260;
+$yellow-base  : #ffdf10;
+
+// Override Bootstrap colours
+$primary: $green-base;
+$secondary: $yellow-base;
+
+// Get Bootstrap
+// 
+// Import all of bootstraps SCSS
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Custom SCSS
+//
+// Add custom scss rules
+body {
+  background-color: $green-xdark;
+}
+
+.choose-number .form-control,
+.choose-number .form-control:active,
+.choose-number .form-control:focus {
+  background-color: $green-base;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.choose-number .form-control:active,
+.choose-number .form-control:focus {
+  border-color: $yellow-base;
+  box-shadow: 0 0 0 2px $yellow-base;
+}
+
+.bg-light-green {
+  background-color: $green-light;
+}
+
+.bg-dark-green {
+  background-color: $green-base;
+}
+
+.bg-darker-green {
+  background-color: $green-darker;
+}
+
+.bg-darkest-green {
+  background-color: $green-xdark;
+}
+
+.bg-yellow {
+  background-color: $yellow-base;
+}
+
+@media (min-width: 768px) {
+  .header {
+    max-width: 268px;
+    flex-wrap: nowrap;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .results {
+    min-width: 400px;
+    border-radius: $border-radius;
+  }
+  body {
+    padding-bottom: 1rem;
+    padding-left: 268px;
+  }
+}
