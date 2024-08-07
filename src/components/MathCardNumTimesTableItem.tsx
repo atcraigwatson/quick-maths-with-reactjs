@@ -17,7 +17,7 @@ export default function MathCardNumTimesTableItem() {
   if ( num <= 0 ) {
     return ( 
       <ul className="list-group">
-        <li className="list-group-item bg-dark-green text-white">We like to stay positve.. Please choose a number higher than 0.</li>
+        <li className="list-group-item bg-dark-green text-white">We like to stay positive.. Please choose a number higher than 0.</li>
       </ul>
     );
   } else {
