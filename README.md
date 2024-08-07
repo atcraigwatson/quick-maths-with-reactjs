@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Small Math App Built with Bootstrap, React, TypeScript and Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This projected was created to help me put in place some of the basic react principles, and I hope to continue adding to it with best practices as I gain a deeper understanding of JavaScript and React.
 
-Currently, two official plugins are available:
+You can visit the site at [Do Quick Maths](https://www.doquickmaths.com/), to check out the working example.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Expanding the Project
 
-## Expanding the ESLint configuration
+I will be expanding the project to further my understanding of react, so please feel free to post any ideas you may have and get involved with the development.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installing the Project Locally
 
-- Configure the top-level `parserOptions` property like this:
+To install and run the project locally, first you would need `node.js` and `npm`.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Downloading `node.js` includes the `npm` package manager, [install node.js from here.](https://nodejs.org/en/download/package-manager)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+With `node.js` on your local machine, you can now clone the repo or download the `.zip` from GitHub.
+
+Now, open your terminal and from the projects root directory run `npm install`, this will install all the npm packages and dependencies.
+
+Next, again in your terminal from the same directory, run `npm run dev`, this should start the Vite server and you will be able to visit the site from the local host address shown in the terminal.
